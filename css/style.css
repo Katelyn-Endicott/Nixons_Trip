@@ -1,0 +1,204 @@
+
+
+/* OVERALL */
+* {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 25px;
+    letter-spacing: .5px;
+}  
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D0CFCF;
+    text-align: left;
+}
+
+h1 {
+    color: dark-grey;
+    font-size: 40px;
+}
+
+h3 {
+    color: dark-grey;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+.button a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+  /* INDEX PAGE */
+
+#index {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../images/nixon-firstlady.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    font-size: 1.4em;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+a button:hover {
+    background-color: #555;
+}
+
+h1.heading {
+    color: white;
+    font-size: 4em;
+}
+
+
+
+  /* MAIN PAGE */
+
+#main-page-banner {
+    background-image: url(../images/nixonhandshake.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    
+    color: #fff;
+    padding: 1rem;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+}
+.header a:hover {
+
+    color: #d8d8d8;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 0;
+    margin-right: auto;
+    padding: 0;
+}
+
+
+  /* nav */
+
+.nav {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+
+}
+.nav li {
+    margin-left: 1rem;
+}
+
+.nav a {
+    margin: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+}
+
+.nav a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+
+  /* sections */
+
+
+section {
+    margin: 3em;
+}
+.sub-section {
+    background-color: rgb(184, 184, 184);
+    padding: 20px 140px;
+
+}
+
+
+  /* Intro */
+
+#intro {
+    height: 150vh;
+
+}
+
+  /* Before */
+#before {
+    
+    height: 150vh;
+
+}
+
+  /* During */
+#during {
+    height: 150vh;
+
+}
+
+  /* After */
+#after {
+    height: 150vh;
+
+}
+
+  /* ABOUT PAGE */
