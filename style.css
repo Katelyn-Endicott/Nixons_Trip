@@ -28,3 +28,7 @@ section {
 .sub-section {
    background-color: grey;
 }
+
+a {
+  border: 2px solid black;
+}
