@@ -168,6 +168,9 @@ h1.heading {
 section {
     margin: 3em;
 }
+.section-heading {
+    padding-top: 60px;
+}
 .sub-section {
     background-color: rgb(184, 184, 184);
     padding: 20px 140px;
@@ -200,5 +203,18 @@ section {
     height: 150vh;
 
 }
+
+
+
+
+.image-link {
+
+}
+
+.image-link:hover {
+    
+    opacity: 30%;
+}
+
 
   /* ABOUT PAGE */
