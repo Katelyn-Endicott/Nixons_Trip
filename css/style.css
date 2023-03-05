@@ -13,6 +13,7 @@ body {
     background-color: #110901;
     background-image: url(../images/TanFiber.jpg);
     text-align: left;
+    
 }
 
 h1 {
@@ -28,6 +29,7 @@ h3 {
 p {
     font-size: 16px;
     color: #110901;
+    font-weight: bold;
 }
 
 
@@ -49,6 +51,7 @@ p {
     background-color: #F8F8EE;
     margin: 70px;
     border-radius: 8px;
+    
 }
 
   /* INDEX PAGE */
@@ -216,12 +219,46 @@ h1.heading {
 
 
 
+/* left and right divs */
+
+.split-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+
+}
+
+.left {
+    width: 50%;
+	height: 100%;
+	text-align: center;
+    padding: 20px;
+    
+}
+
+.right {
+    width: 50%;
+	height: 100%;
+	text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
 
   /* sections */
 
 
 section {
     margin: 3em;
+    
+
 }
 .section-heading {
     width: 500px;
@@ -232,8 +269,19 @@ section {
 .sub-section {
     background-color: #F8F8EE;
     padding: 20px 140px;
-
+    
+    
 }
+
+
+
+
+
+
+
+
+
+
 
 
   /* Intro */
@@ -252,13 +300,13 @@ section {
 
   /* During */
 #during {
-    height: 300vh;
+    height: 400vh;
 
 }
 
   /* After */
 #after {
-    height: 300vh;
+    height: 600vh;
 
 }
 
