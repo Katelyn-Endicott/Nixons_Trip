@@ -224,7 +224,10 @@ section {
     margin: 3em;
 }
 .section-heading {
-    padding-top: 60px;
+    width: 500px;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 0;
 }
 .sub-section {
     background-color: #F8F8EE;
@@ -236,26 +239,26 @@ section {
   /* Intro */
 
 #intro {
-    height: 170vh;
+    height: 300vh;
 
 }
 
   /* Before */
 #before {
     
-    height: 150vh;
+    height: 300vh;
 
 }
 
   /* During */
 #during {
-    height: 270vh;
+    height: 300vh;
 
 }
 
   /* After */
 #after {
-    height: 200vh;
+    height: 300vh;
 
 }
 
