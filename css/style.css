@@ -30,6 +30,7 @@ p {
     font-size: 16px;
     color: #110901;
     font-weight: bold;
+    line-height: 40px;
 }
 
 
@@ -268,7 +269,8 @@ section {
 }
 .sub-section {
     background-color: #F8F8EE;
-    padding: 20px 140px;
+    padding: 20px 280px;
+    
     
     
 }
@@ -287,7 +289,7 @@ section {
   /* Intro */
 
 #intro {
-    height: 300vh;
+    height: 370vh;
 
 }
 
