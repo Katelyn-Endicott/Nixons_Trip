@@ -272,6 +272,11 @@ section {
     
 
 }
+
+.header-container {
+	width: 100%;
+	text-align: center;
+}
 .section-heading {
     width: 500px;
     text-align: center;
