@@ -330,7 +330,7 @@ section {
 .recording{
         margin: 0 auto;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 2fr;
 }
 .audio{
 	margin: 0 auto;
