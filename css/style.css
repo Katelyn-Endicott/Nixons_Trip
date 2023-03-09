@@ -323,6 +323,15 @@ section {
     
     opacity: 90%;
 }
+/* Recordings sections */
+.recording{
+        margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.audio{
+	margin: 0 auto;
+}
 
 
   /* ABOUT PAGE */
